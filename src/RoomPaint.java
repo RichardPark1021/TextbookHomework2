@@ -5,8 +5,11 @@
  * @Written: February 7, 2023
  * Description:
  */
+
+import java.util.Scanner;
+
 public class RoomPaint {
     public static void main(String[] args) {
-
+        Scanner sc = new Scanner(System.in);
     }
 }

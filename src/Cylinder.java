@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /**
  * @Class: Cylinder
  * @Author: Richard Park
@@ -10,6 +8,9 @@ import java.util.Scanner;
  * Area of base= π * radius * radius
  * Volume= (area of base) * height
  */
+
+import java.util.Scanner;
+
 public class Cylinder {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
