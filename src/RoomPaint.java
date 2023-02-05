@@ -36,7 +36,7 @@ public class RoomPaint {
         totalArea -= (doors * 21);
 
         int totalPaint = totalArea / paintCoverage;
-        double quartsOfPaint = (double)(totalArea) / (double)(paintCoverage) * 4.0;
+        double quartsOfPaint = (double)(totalArea) / paintCoverage * 4.0;
 
         //output
         System.out.println("The total gallons of paint is: " + totalPaint + " gallons.");
